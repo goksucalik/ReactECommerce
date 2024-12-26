@@ -1,0 +1,41 @@
+.navbar .navbar-icon-button {
+  margin-right: 2px;
+}
+
+.navbar .navbar-title {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.navbar .navbar-search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .navbar-search-input {
+  width: 300px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.navbar .navbar-search-input input {
+  color: lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.navbar .navbar-badge {
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.navbar .navbar-basket-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.navbar .navbar-logout-button {
+  text-transform: none;
+  color: lightgrey;
+}

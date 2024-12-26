@@ -1,0 +1,26 @@
+.productCard {
+  background-image: linear-gradient(
+      to top,
+      rgba(98, 100, 113, 0.8),
+      rgba(46, 49, 65, 0.8)
+    ),
+    url("../images/büst.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.product-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

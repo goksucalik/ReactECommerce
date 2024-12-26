@@ -1,0 +1,64 @@
+.authentication-page {
+  background-color: #2e3141;
+  background-image: linear-gradient(
+      to top,
+      rgba(46, 49, 65, 0.8),
+      rgba(46, 49, 65, 0.8)
+    ),
+    url("../images/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.form-div {
+  background-color: white;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px rgb(50, 50, 50);
+  gap: 15px;
+  margin-top: 20px;
+}
+.form-field label {
+  font-size: 18px;
+}
+.form-field {
+  width: 300px;
+  margin-bottom: 28px;
+}
+.error-text {
+  color: red;
+}
+.button-group .submit-button,
+.button-group .clear-button {
+  text-transform: none;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.button-group .submit-button {
+  background-color: #456de7;
+}
+.button-group .clear-button {
+  background-color: #cda735;
+}
+
+.button-group .register-button {
+  background-color: #65374f;
+  text-transform: none;
+  height: 28px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
